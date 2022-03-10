@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "multiblocks-translatable/blockdynamic",
+	"version": "0.1.0",
+	"title": "Multiblocks Translatable dynamic block.",
+	"category": "widgets",
+	"icon": {
+		"foreground": "white",
+		"background": "violet",
+		"src": "smiley"
+	},
+	"description": "Example of dynamic block scaffolded with Create Block tool, made multiblock and translatable.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "multiblocks-translatable",
+	"editorStyle": "file:../../../build/blockdynamic/blockdynamic.css",
+	"style": "file:../../../build/blockdynamic/style-blockdynamic.css"
+}

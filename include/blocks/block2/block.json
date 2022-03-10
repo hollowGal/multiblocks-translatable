@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "multiblocks-translatable/block2",
+	"version": "0.1.0",
+	"title": "Multiblocks Translatable block 2",
+	"category": "widgets",
+	"icon": {
+		"foreground": "white",
+		"background": "violet",
+		"src": "smiley"
+	},
+	"description": "Second Example static block scaffolded with Create Block tool, made multiblock and translatable.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "multiblocks-translatable",
+	"editorStyle": "file:../../../build/block2/block2.css",
+	"style": "file:../../../build/block2/style-block2.css"
+}
